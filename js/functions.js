@@ -119,7 +119,7 @@
               rows[currentRandomNumber].style.backgroundColor = "red";
           }
      */
-     let currentSong = "../music/" + titleCategory + "/" + currentRandomNumber + ".mp3";
+     let currentSong = "./music/" + titleCategory + "/" + currentRandomNumber + ".mp3";
      //console.log(currentSong);
      playSong(currentSong);
  }
