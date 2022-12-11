@@ -162,10 +162,9 @@ function playSong(sourceUrl) {
     if (checkBox.checked == true) {
         ansBlock.style.visibility = "hidden";
         answerButton.textContent = 'Show Answer';
-    } else {
-        ansBlock.style.visibility = "visible";
     }
-    console.log(sourceUrl);
+
+    //console.log(sourceUrl);
     var audio = document.getElementById("player"),
         source = document.getElementById("mp3_src");
     console.log(source);

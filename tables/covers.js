@@ -146,5 +146,8 @@ const covers = [
     [145, "Astrud Gilberto, Joao Gilberto and Stan Getz (Nat King Cole)", "The Girl From Ipanema"],
     [146, "Gerry Rafferty (Lucius)", "Right Down the Line"],
     [147, "The Beatles (Jerry Garcia)", "I Saw Her Standing There"],
-    [148, "Neil Young (Lord Huron)", "Harvest Moon"]
+    [148, "Neil Young (Lord Huron)", "Harvest Moon"],
+    [149, "Maroon 5 (Pentatonix)", "Moves Like Jagger"],
+    [150, "Dua Lipa (Pentatonix)", "Break My Heart"],
+    [151, "Demi Levato (Pentatonix)", "Sorry Not Sorry"],
 ];
