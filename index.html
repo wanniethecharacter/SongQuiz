@@ -13,10 +13,10 @@
     <script src="./tables/twentyTwenties.js" type="text/javascript" charset="utf-8"></script>
     <script src="./tables/rock.js" type="text/javascript" charset="utf-8"></script>
     <script src="./tables/protest.js" type="text/javascript" charset="utf-8"></script>
-    <script src="./js/allSongs.js" type="text/javascript" charset="utf-8"></script>
     <script src="./tables/covers.js" type="text/javascript" charset="utf-8"></script>
 
-    <!--script src="./tables/temp.js" type="text/javascript" charset="utf-8"></script-->
+    <!--script src="./js/allSongs.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./tables/temp.js" type="text/javascript" charset="utf-8"></script-->
 
 </head>
 <style>
@@ -155,7 +155,6 @@
         <button class="decadeButton" id="protestButton" onclick="return chooseSong(protest,'protestSongs', 'Protest',this.id)">Protest</button>
         <button class="decadeButton" id="coverButton" onclick="return chooseSong(covers,'coverSongs', 'Cover Songs',this.id)">Cover Songs</button>
         <!--button class="decadeButton" id="allButton" onclick="return chooseSong(all,'allSongs', 'All',this.id)">All</button-->
-
         <!--button class="decadeButton" id="tempButton" onclick="return chooseSong(temp,'tempSongs', 'Temp',this.id)">Temp</button-->
     </div>
 
@@ -230,25 +229,25 @@
 
 <script>
     /* 
-                                                                                                                        const box = document.getElementById('songTable');
-                                                                                                                        const btn = document.getElementById('showTable');
+                                                                                                                                const box = document.getElementById('songTable');
+                                                                                                                                const btn = document.getElementById('showTable');
 
-                                                                                                                        btn.addEventListener('click', function handleClick() {
-                                                                                                                            if (box.style.visibility === 'hidden') {
-                                                                                                                                box.style.visibility = 'visible';
-                                                                                                                                drawTableAddHeaders(currentSongArray, ["Number", "Movie", "Song"], "songTable");
-                                                                                                                                document.getElementById("songTable").addEventListener("click", tablePlay, false);
-                                                                                                                                console.log("table drawn");
+                                                                                                                                btn.addEventListener('click', function handleClick() {
+                                                                                                                                    if (box.style.visibility === 'hidden') {
+                                                                                                                                        box.style.visibility = 'visible';
+                                                                                                                                        drawTableAddHeaders(currentSongArray, ["Number", "Movie", "Song"], "songTable");
+                                                                                                                                        document.getElementById("songTable").addEventListener("click", tablePlay, false);
+                                                                                                                                        console.log("table drawn");
 
-                                                                                                                                btn.textContent = 'Hide Table View';
-                                                                                                                            } else {
-                                                                                                                                box.style.visibility = 'hidden';
+                                                                                                                                        btn.textContent = 'Hide Table View';
+                                                                                                                                    } else {
+                                                                                                                                        box.style.visibility = 'hidden';
 
-                                                                                                                                btn.textContent = 'Show Table View';
-                                                                                                                            }
-                                                                                                                        });
+                                                                                                                                        btn.textContent = 'Show Table View';
+                                                                                                                                    }
+                                                                                                                                });
 
-                                                                                                                    */
+                                                                                                                            */
     const answerDiv = document.getElementById('answers');
 
     const answerButton = document.getElementById('showAnswers');
