@@ -2,7 +2,7 @@ const nineties = [
     [1, "Radiohead", "Creep"],
     [2, "Eminem", "Slim Shady"],
     [3, "New Radicals", "You Get What You Give"],
-    [4, "Six Pence None the Richer", "Kiss Me"],
+    [4, "Sixpence None the Richer", "Kiss Me"],
     [5, "Ice Cube", "It Was a Good day"],
     [6, "Sir MixAlot", "Baby Got Back"],
     [7, "Joan Osborne", "One of Us"],

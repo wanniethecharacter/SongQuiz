@@ -26,10 +26,21 @@
     
     #heading {
         font-size: 3vw;
+        width: 50%;
         margin-bottom: 30px;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        color: white;
+        border: 1px solid black;
+        background-color: darkred;
+        border-radius: 25px;
+    }
+    
+    #player {
+        border: 1px solid black;
+        width: 20%;
+        border-radius: 25px;
     }
     
     #version {
@@ -48,6 +59,12 @@
     .centered {
         display: flex;
         justify-content: center;
+    }
+    
+    #instructions1,
+    #instructions2 {
+        color: darkred;
+        font-size: 1.5vw;
     }
     
     #decades {
@@ -74,7 +91,7 @@
     }
     
     #playASong {
-        background-color: green;
+        background-color: darkred;
         /* Green */
         border: none;
         color: white;
@@ -163,7 +180,11 @@
     <p></p>
     <p></p>
 
-    <div id="instructions" class="centered"></div>
+
+    <div id="instructions1" class="centered"></div><br>
+    <div id="instructions2" class="centered"></div>
+
+
     <p> </p>
     <p></p>
 
@@ -229,25 +250,23 @@
 
 <script>
     /* 
-                                                                                                                                                const box = document.getElementById('songTable');
-                                                                                                                                                const btn = document.getElementById('showTable');
+                                        const box = document.getElementById('songTable');
+                                        const btn = document.getElementById('showTable');
+                                        btn.addEventListener('click', function handleClick() {
+                                     if (box.style.visibility === 'hidden') {
+                                  box.style.visibility = 'visible';
+                                      drawTableAddHeaders(currentSongArray, ["Number", "Movie", "Song"], "songTable");
+                                      document.getElementById("songTable").addEventListener("click", tablePlay, false);
+                                    console.log("table drawn");
 
-                                                                                                                                                btn.addEventListener('click', function handleClick() {
-                                                                                                                                                    if (box.style.visibility === 'hidden') {
-                                                                                                                                                        box.style.visibility = 'visible';
-                                                                                                                                                        drawTableAddHeaders(currentSongArray, ["Number", "Movie", "Song"], "songTable");
-                                                                                                                                                        document.getElementById("songTable").addEventListener("click", tablePlay, false);
-                                                                                                                                                        console.log("table drawn");
+                                   btn.textContent = 'Hide Table View';
+                                  } else {
+                                   box.style.visibility = 'hidden';
+                             btn.textContent = 'Show Table View';
+                                       }
+                                    });
 
-                                                                                                                                                        btn.textContent = 'Hide Table View';
-                                                                                                                                                    } else {
-                                                                                                                                                        box.style.visibility = 'hidden';
-
-                                                                                                                                                        btn.textContent = 'Show Table View';
-                                                                                                                                                    }
-                                                                                                                                                });
-
-                                                                                                                                            */
+                               */
     const answerDiv = document.getElementById('answers');
 
     const answerButton = document.getElementById('showAnswers');

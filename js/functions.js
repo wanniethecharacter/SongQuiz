@@ -50,11 +50,14 @@ function chooseSong(array_name, categoryName, group, buttonID) {
 
 
         if (categoryName.includes("disney")) {
-            document.getElementById("instructions").innerText = "Name the song and the movie";
+            document.getElementById("instructions1").innerText = "Name the song and the movie";
+            document.getElementById("instructions2").innerText = "";
         } else if (categoryName.includes("cover")) {
-            document.getElementById("instructions").innerText = "Name the song and ORIGINAL artist";
+            document.getElementById("instructions1").innerText = "Name the song and ORIGINAL artist";
+            document.getElementById("instructions2").innerText = "(Bonus point for naming the covering artist.)";
         } else {
-            document.getElementById("instructions").innerText = "Name the song and the artist";
+            document.getElementById("instructions1").innerText = "Name the song and the artist";
+            document.getElementById("instructions2").innerText = "";
         }
 
         document.getElementById("categoryTitle").innerText = groupName + ": " + currentSongArray.length + " songs";
