@@ -267,6 +267,6 @@ function resetButtonColors(butID) {
         buttons[i].style.backgroundColor = '#008CBA';
     };
 
-    document.getElementById(butID).style.backgroundColor = "red";
+    document.getElementById(butID).style.backgroundColor = "darkred";
 
 };
