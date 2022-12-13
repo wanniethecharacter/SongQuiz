@@ -109,7 +109,7 @@ const rock = [
     [108, "Heart", "Crazy on You"],
     [109, "Alice Cooper", "Eighteen"],
     [110, "Allman Brothers", "Jessica"],
-    [111, "Neil Young", "Like a Hurrican"],
+    [111, "Neil Young", "Like a Hurricane"],
     [112, "Emerson, Lake and Palmer", "Lucky Man"],
     [113, "David Bowie", "Panic in Detroit"],
     [114, "Golden Earring", "Radar Love"],
