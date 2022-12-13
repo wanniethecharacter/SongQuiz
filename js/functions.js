@@ -82,7 +82,10 @@ function chooseSong(array_name, categoryName, group, buttonID) {
 
 function getRandomSong() {
     if (groupName !== "All") {
-        // console.log(currentSongArray.length, playedSongArray.length);
+
+        if (currentSongArray.length === 0) {
+            alert("Please choose a song category.");
+        }
 
         songNumber = currentSongArray.length;
         playedNumber = playedSongArray.length;
@@ -110,11 +113,8 @@ function getRandomSong() {
 function presentTitles() {
 
     let categoryEntry = currentSongArray[currentRandomNumber - 1];
-
     document.getElementById("answer1").innerText = categoryEntry[1];
     document.getElementById("answer2").innerText = '"' + categoryEntry[2] + '"';
-
-
 
     keepTrackOfPlayedSongs(titleCategory, currentRandomNumber);
 
