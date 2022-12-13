@@ -91,7 +91,7 @@ const covers = [
     [90, "Hall and Oates (Grace Mitchell)", "Maneater"],
     [91, "Fleetwood Mac (Leo Kottke)", "Oh Well"],
     [92, "Bee Gees (Funky Butt Brass Band)  ", "Stayin' Alive"],
-    [93, "Joanie Mitchell (Sergio Mendes & Brasil '66)  ", "Chelsea Morning"],
+    [93, "Joni Mitchell (Sergio Mendes & Brasil '66)  ", "Chelsea Morning"],
     [94, "Nelly (Jenny Owen Youngs)", "Hot in Herre"],
     [95, "Ben E. King (Imagine Dragons)  ", "Blank Space"],
     [96, "The Cure (Mariee Sioux)", "Love Song"],
@@ -150,4 +150,10 @@ const covers = [
     [149, "Maroon 5 (Pentatonix)", "Moves Like Jagger"],
     [150, "Dua Lipa (Pentatonix)", "Break My Heart"],
     [151, "Demi Levato (Pentatonix)", "Sorry Not Sorry"],
+    [152, "Beatles (Amy Winehouse)", "All My Lovin'"],
+    [153, "Beatles (MonaLisa Twins)", "If I Fell"],
+    [154, "Creedence Clearwater Revival (Ike & Tina Turner)", "Proud Mary"],
+    [155, "Bruce Springsteen (Patti Smith)", "Because the Night"],
+    [156, "Wilburt Harrison (Bryan Ferry)", "Let's Stick Together"],
+    [157, "Bob Marley (Eric Clapton)", "I Shot The Sheriff"]
 ];

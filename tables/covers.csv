@@ -1,4 +1,4 @@
-num,artist,song
+0,1,2
 1,50 Cent (The Baseballs),Candy Shop
 2,Adele (Maiya Sykes),Hello
 3,Aerosmith (Postmodern Jukebox) ,Dream On
@@ -26,7 +26,7 @@ num,artist,song
 25,George Michael (Seether),Careless Whisper
 26,Gotye (Postmodern JukeBox),Somebody That I Used To Know 
 27,Green Day (Scala & Kolacny Brothers),Wake Me Up When September Ends
-28,Guns ?n? Roses (Sheryl Crow),Sweet Child O' Mine
+28,Guns n Roses (Sheryl Crow),Sweet Child O' Mine
 29,Imagine Dragons (Pentatonix),Radioactive
 30,Joan Baez (Judas Priest),Diamonds and Rust
 31,Joe Walsh (Godsmack),Rocky Mountain Way
@@ -64,7 +64,7 @@ num,artist,song
 63,Snoop Dog (Richard Cheese),Gin And Juice
 64,Snow Patrol (Sofi Tukker),Chasing Cars
 65,Spice Girls (Postmodern Jukebox),Wannabe
-66,Stevie Wonder (Red Hot Chili Peppers),Higher ground
+66,Stevie Wonder (Red Hot Chili Peppers),Higher Ground
 67,Survivor (Jenn Grant),Eye of the Tiger
 68,Tears for Fears (Disturbed),Shout
 69,Tears for Fears (Lorde),Everybody Wants to Rule the World
@@ -78,7 +78,7 @@ num,artist,song
 77,The Temptations (Love and Rockets),Ball Of Confusion
 78,The Who (Puddles Pity Party),Pinball Wizard
 79,Toto  (Hannah Bolton and Leo),Africa
-80,White Stripes (Vintage New Orleans Dirge ft. Haley Reinhart),Seven Nation Army
+80,White Stripes (Postmodern Jukebox),Seven Nation Army
 81,Sheryl Crow (Ultimate Painting)  ,All I Wanna Do
 82,The Police (The Infamous Stringdusters)  ,Walking on the Moon
 83,Pink Floyd (The Bad Plus) , Comfortably Numb
@@ -91,9 +91,9 @@ num,artist,song
 90,Hall and Oates (Grace Mitchell),Maneater
 91,Fleetwood Mac (Leo Kottke),Oh Well
 92,Bee Gees (Funky Butt Brass Band)  ,Stayin' Alive
-93,Joanie Mitchell (Sergio Mendes & Brasil '66)  ,Chelsea Morning
+93,Joni Mitchell (Sergio Mendes & Brasil '66)  ,Chelsea Morning
 94,Nelly (Jenny Owen Youngs),Hot in Herre
-95,Ben E. King (Imagine Dragons)  ,Stand By Me
+95,Ben E. King (Imagine Dragons)  ,Blank Space
 96,The Cure (Mariee Sioux),Love Song
 97,Bee Gees (The Bird and The Bee)  ,How Deep Is Your Love
 98,Taylor Swift (Us The Duo),Shake It Off
@@ -123,7 +123,7 @@ num,artist,song
 122,The Beatles (Jad Fair),Tomorrow Never Knows
 123,Gene Wilder [or Willie Wonka] (Fiona Apple),Pure Imagination
 124,Cat Stevens (Johnny Cash),Father and Son
-125,Rsay Charles (Johnny Cash and June Carter),I Got A Woman
+125,Ray Charles (Johnny Cash and June Carter),I Got A Woman
 126,Bob Marley (Johnny Cash & Joe Strummer),Redemption Song
 127,Depeche Mode (Johnny Cash),Personal Jesus
 128,Pulp (William Shatner),Common People
@@ -143,7 +143,16 @@ num,artist,song
 142,Nine Inch Nails (Johnny Cash),Hurt
 143,The Beatles (Junior Parker),Tomorrow Never Knows
 144,The Hollies (Shovels & Rope),The Air That I Breathe
-145,"Astrud Gilberto, Jo?o Gilberto and Stan Getz (Nat King Cole)",The Girl From Ipanema
+145,"Astrud Gilberto, Joao Gilberto and Stan Getz (Nat King Cole)",The Girl From Ipanema
 146,Gerry Rafferty (Lucius),Right Down the Line
 147,The Beatles (Jerry Garcia),I Saw Her Standing There
 148,Neil Young (Lord Huron),Harvest Moon
+149,Maroon 5 (Pentatonix),Moves Like Jagger
+150,Dua Lipa (Pentatonix),Break My Heart
+151,Demi Levato (Pentatonix),Sorry Not Sorry
+152,Beatles (Amy Winehouse),All My Lovin'
+153,Beatles (MonaLisa Twins),If I Fell
+154,Creedence Clearwater Revival (Ike & Tina Turner),Proud Mary
+155,Bruce Springsteen (Patti Smith),Because the Night
+156,Wilburt Harrison (Bryan Ferry),Let's Stick Together
+157,Bob Marley (Eric Clapton),I Shot The Sheriff

@@ -120,5 +120,11 @@ const rock = [
     [119, "Kinks", "All Day and All of the Night"],
     [120, "The White Stripes", "Seven Nation Army"],
     [121, "Led Zeppelin", "Kashmir"],
-    [122, "Bush", "The Chemicals Between Us"]
+    [122, "Bush", "The Chemicals Between Us"],
+    [123, "Aerosmith", "Sweet Emotion"],
+    [124, "Allman Brothers", "Ramblin' Man"],
+    [125, "Bachman-Turner Overdrive", "You Ain't Seen Nothin' Yet"],
+    [126, "Bob Dylan", "Hurricane"],
+    [127, "Heart", "Barracuda"],
+    [128, "Led Zeppelin", "Kashmir"],
 ];

@@ -136,6 +136,7 @@ function presentTitles() {
 
 function randomNumber(count) {
     console.log(count, titleCategory);
+    console.log(titleCategory.length);
     const rndInt = Math.floor(Math.random() * currentSongArray.length) + 1;
     let fullChosen = titleCategory + count;
     //console.log(playedSongArray);
