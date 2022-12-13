@@ -74,7 +74,7 @@ const seventies = [
     [73, "Elton John", "Someone Saved My Life Tonight"],
     [74, "Eric Clapton", "Wonderful Tonight"],
     [75, "Fleetwood Mac", "Don't Stop"],
-    [76, "Fleetwood Mac Go Your Own Way", ""],
+    [76, "Fleetwood Mac", "Go Your Own Way"],
     [77, "Fleetwood Mac", "Rhiannon"],
     [78, "Fleetwood Mac", "The Chain"],
     [79, "George Harrison", "What Is Life"],
