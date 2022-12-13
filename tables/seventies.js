@@ -103,7 +103,7 @@ const seventies = [
     [102, "Rickie Lee Jones", "Chuck E's in Love"],
     [103, "Rod Stewart", "Maggie May"],
     [104, "Seals and Crofts", "Summer Breeze"],
-    [105, "Sex Pistols", "Anarchy in the U.K_"],
+    [105, "Sex Pistols", "Anarchy in the U.K"],
     [106, "Simon & Garfunkel", "Bridge Over Troubled Water"],
     [107, "Simon & Garfunkel", "Cecilia"],
     [108, "Simon & Garfunkel", "The Boxer"],
