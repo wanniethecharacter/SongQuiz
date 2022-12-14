@@ -45,12 +45,12 @@ const seventies = [
     [44, "Queen", "We Will Rock You"],
     [45, "Chaka Khan", "I'm Every Woman"],
     [46, "Sylvester", "You Make Me Feel"],
-    [47, "Buzzcocks", "Ever Fallen In Love (With Someone You Shouldn't've)"],
+    [47, "Blondie", "One Way or Another"],
     [48, "Joni Mitchell", "Big Yellow Taxi"],
     [49, "The Knack", "My Sharona"],
     [50, "Carl Douglas", "Kung Fu Fighting"],
     [51, "Bob Seger", "Still The Same"],
-    [52, "Boston", "More Than a Feeling"],
+    [52, "Bob Dylan", "Knockin' On Heaven's Door"],
     [53, "Carly Simon", "You're so Vain"],
     [54, "Carole King", "It's Too Late"],
     [55, "Carpenters", "For All We Know"],
@@ -126,7 +126,7 @@ const seventies = [
     [125, "The Edgar Winter Group", "Free Ride"],
     [126, "The Guess Who", "American Woman"],
     [127, "The Isley Brothers", "That Lady, Pts. 1 & 2"],
-    [128, "The Knack", "My Sharona"],
+    [128, "Blue Oyster Cult", "(Don't Fear) The Reaper"],
     [129, "The Police", "Can't Stand Losing You"],
     [130, "The Police", "Message In A Bottle"],
     [131, "The Rolling Stones", "Brown Sugar"],
@@ -149,8 +149,7 @@ const seventies = [
     [148, "Badfinger", "Come And Get It"],
     [149, "Badfinger", "No Matter What"],
     [150, "Bee Gees", "How Deep Is Your Love"],
-    [151, "Blondie", "One Way or Another"],
-    [152, "Blue Oyster Cult", "(Don't Fear) The Reaper"],
-    [153, "Bob Dylan", "Knockin' On Heaven's Door"]
+
+
 
 ];

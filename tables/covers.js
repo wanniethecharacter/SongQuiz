@@ -155,5 +155,6 @@ const covers = [
     [154, "Creedence Clearwater Revival (Ike & Tina Turner)", "Proud Mary"],
     [155, "Bruce Springsteen (Patti Smith)", "Because the Night"],
     [156, "Wilburt Harrison (Bryan Ferry)", "Let's Stick Together"],
-    [157, "Bob Marley (Eric Clapton)", "I Shot The Sheriff"]
+    [157, "Bob Marley (Eric Clapton)", "I Shot The Sheriff"],
+    [158, "Keane (Lily Allen)", "Somewhere Only We Know"],
 ];

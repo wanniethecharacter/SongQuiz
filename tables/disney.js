@@ -46,9 +46,10 @@ const disney = [
     [45, "Beauty and the Beast", "Beauty and the Beast"],
     [46, "Mary Poppins", "Chim Chim Cher-ee"],
     [47, "Frozen", "Do you want to Build a Snowman"],
-    [48, "Pinnochio", "Give a Little Whistle"],
+    [48, "Summer Magic", "Ugly Bug Ball"],
     [49, "Pinnochio", "Hi Diddle Dee Dee (An Actor's Life for me)"],
-    [50, "Moana", "How Far I'll Go"]
+    [50, "Moana", "How Far I'll Go"],
+    [51, "Three Little Pigs", "Who's Afraid of the big Bad Wolf?"]
 
 
 ];

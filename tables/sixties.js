@@ -24,7 +24,7 @@ const sixties = [
     [23, "Sonny & Cher", "I Got You Babe"],
     [24, "The Four Tops", "Reach Out, I'll Be There"],
     [25, "The Shadows", "Apache"],
-    [26, "Louis Armstrong", "What a Wonderful World"],
+    [26, "The Impressions", "People Get Ready"],
     [27, "The Archies", "Sugar Sugar"],
     [28, "The Troggs", "Wild Thing"],
     [29, "Chubby Checker", "Let's Twist Again"],
@@ -87,7 +87,7 @@ const sixties = [
     [86, "The Who", "I'm Free"],
     [87, "Thunderclap Newman", "Something in the Air"],
     [88, "Tommy James & The Shondells", "I Think We're Alone Now"],
-    [89, "The Impressions", "People Get Ready"],
+
 
 
 

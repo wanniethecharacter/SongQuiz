@@ -1,4 +1,4 @@
-const nineties = [
+ [
     [1, "Radiohead", "Creep"],
     [2, "Eminem", "Slim Shady"],
     [3, "New Radicals", "You Get What You Give"],
@@ -46,7 +46,8 @@ const nineties = [
     [45, "MC Hammer", "You Can't Touch This"],
     [46, "Sinead O Connor", "Nothing Compares to You"],
     [47, "Cher", "Believe"],
-    [48, "Michael Jackson", "Black or White"],
+    [48, "Coolio", "Gangsters paradise"],
     [49, "Jimmy Cliff", "I Can See Clearly Now"],
-
-];
+    [50, "Michael Jackson", "Black or White"],
+    [51, "Jet", "Are You Gonna Be My Girl?"],
+]

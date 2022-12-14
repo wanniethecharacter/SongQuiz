@@ -12,7 +12,7 @@ const twoThousands = [
     [11, "Shakira", "Underneath Your Clothes"],
     [12, "The Killers", "Mr Brightside"],
     [13, "Ice Cube", "You Can Do It"],
-    [14, "Coldplay", "Yellow"],
+    [14, "Gorillaz", "Feel Good Inc"],
     [15, "David Gray", "Sail Away"],
     [16, "The Dandy Warhols", "Bohemian Like You"],
     [17, "Jet", "Are You Gonna Be My Girl"],
@@ -58,6 +58,6 @@ const twoThousands = [
     [57, "Shakira, Wyclef Jean", "Hips Don't Lie"],
     [58, "Coldplay", "Viva La Vida"],
     [59, "Plain White T's", "Hey There Delilah"],
-    [60, "Gorillaz", "Feel Good Inc"]
+
 
 ];

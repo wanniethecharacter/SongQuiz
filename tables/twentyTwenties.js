@@ -56,7 +56,7 @@ const twentyTwenties = [
     [55, "Arlo Parks", "Hope"],
     [56, "Lil Nas X", "Montero (Call me by Your Name)"],
     [57, "Glass Animals", "Heat Waves"],
-    [58, "The Weeknd", "Blinding Lights "],
+    [58, "Mariah Carey", "All I Want for Christmas Is You"],
     [59, "Post Malone", "Circles "],
     [60, "Roddy Ricch", "The Box "],
     [61, "Dua Lipa", "Don't Start Now "],
@@ -66,11 +66,11 @@ const twentyTwenties = [
     [64, "Future featuring Drake", "Life Is Good "],
     [65, "Maroon 5", "Memories "],
     [66, "Maren Morris", "The Bones "],
-    [67, "Lewis Capaldi", "Someone You Loved "],
+    [67, "Kate Bush", "Running Up That Hill"],
     [68, "Doja Cat", "Say So "],
     [69, "Ariana Grande", "Positions"],
     [70, "Jack Harlow featuring DaBaby, Tory Lanez and Lil Wayne", "Whats Poppin "],
-    [71, "Tones and I", "Dance Monkey "],
+    [71, "“Encanto” Cast", "We Don’t Talk About Bruno"],
     [72, "Megan Thee Stallion featuring Beyonce", "Savage "],
     [73, "Arizona Zervas", "Roxanne "],
     [74, "Justin Bieber featuring Quavo", "Intentions "],
@@ -87,7 +87,6 @@ const twentyTwenties = [
     [85, "Luke Combs", "Forever After All "],
     [86, "Olivia Rodrigo", "Deja Vu "],
     [87, "Harry Styles", "Adore You "],
-
     [88, "Taylor Swift", "Anti-Hero"],
     [89, "Sam Smith and Kim Petras", "Unholy"],
     [90, "Steve Lacy", "Bad Habit"],
@@ -98,9 +97,8 @@ const twentyTwenties = [
     [95, "Future featuring Drake and Tems", "Wait for U"],
     [96, "Jack Harlow", "First Class"],
     [97, "Harry Styles", "As It Was"],
-    [98, "“Encanto” Cast", "We Don’t Talk About Bruno"],
-    [99, "Adele", "Easy on Me"],
-    [100, "Mariah Carey", "All I Want for Christmas Is You"],
-    [101, "Kate Bush", "Running Up That Hill"],
+
+
+
 
 ]
