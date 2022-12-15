@@ -16,7 +16,7 @@ const rock = [
     [15, "Guns N Roses", "Sweet Child of Mine"],
     [16, "Bloodhound Gang", "Discovery Channel"],
     [17, "Bon Jovi", "Keep the Faith"],
-    [18, "Softcell", "Tainted love"],
+    [18, "Bush", "The Chemicals Between Us"],
     [19, "Queen", "I Want to Ride My Bicycle"],
     [20, "Bachman Turner Overdrive", "You Ain't Seen Nothin' Yet"],
     [21, "Lynrd Skynrd", "Free Bird"],
@@ -102,7 +102,7 @@ const rock = [
     [101, "Journey", "Don't Stop Believin'"],
     [102, "Edgar Winter Group", "Frankenstein"],
     [103, "Aerosmith", "Sweet Emotion"],
-    [104, "Bush", "The Chemicals Between Us"]
+
 
 
 
