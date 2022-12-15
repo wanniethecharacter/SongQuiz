@@ -49,7 +49,7 @@ const nineties = [
     [48, "Will Smith", "Miami"],
     [49, "Jimmy Cliff", "I Can See Clearly Now"],
     [50, "Michael Jackson", "Black or White"],
-    [51, "Jet", "Are You Gonna Be My Girl?"],
+    [51, "Warren G, Nate Dogg", "Regulate"],
     [52, "Blind Melon", "No Rain"],
     [53, "Alanis Morissette", "Hand in My Pocket"],
     [54, "Alanis Morissette", "You Oughta Know"],
@@ -96,7 +96,7 @@ const nineties = [
     [95, "The Prodigy", "Smack My Bitch Up"],
     [96, "The Smashing Pumpkins", "1979"],
     [97, "Tori Amos", "Cornflake Girl"],
-    [98, "Warren G, Nate Dogg", "Regulate"],
+
 
 
 
