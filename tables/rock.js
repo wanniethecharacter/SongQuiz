@@ -73,7 +73,7 @@ const rock = [
     [72, "Sex Pistols", "Anarchy in the UK"],
     [73, "Led Zeppelin", "Stairway to Heaven"],
     [74, "Deep Purple", "Black Night"],
-    [75, "Korn", "Blind"],
+    [75, "Allman Brothers", "Ramblin' Man"],
     [76, "Foo Fighters", "Best of You"],
     [77, "Smashing Pumpkins", "Today"],
     [78, "Foo Fighters", "My Hero"],
@@ -82,7 +82,7 @@ const rock = [
     [81, "Guns N Roses", "You Could Be Mine"],
     [82, "The Scorpions", "Wind of Change"],
     [83, "Nirvana", "Lithium"],
-    [84, "Metallica", "Enter Sandman"],
+    [84, "Bob Dylan", "Hurricane"],
     [85, "Metallica", "Nothing Else Matters"],
     [86, "Green Day", "Longview"],
     [87, "Sum 41", "In Too Deep"],
@@ -122,9 +122,7 @@ const rock = [
     [121, "Led Zeppelin", "Kashmir"],
     [122, "Bush", "The Chemicals Between Us"],
     [123, "Aerosmith", "Sweet Emotion"],
-    [124, "Allman Brothers", "Ramblin' Man"],
-    [125, "Bachman-Turner Overdrive", "You Ain't Seen Nothin' Yet"],
-    [126, "Bob Dylan", "Hurricane"],
-    [127, "Heart", "Barracuda"],
-    [128, "Led Zeppelin", "Kashmir"],
+
+
+
 ];

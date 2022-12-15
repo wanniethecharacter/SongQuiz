@@ -4,7 +4,6 @@ const twentyTens = [
     [3, "LMFAO", "Sexy & I Know It"],
     [4, "Adele", "Someone Like You"],
     [5, "Tones And I", "Dance Monkey"],
-    [5, "Lily Allen", "Somewhere Only We Know"],
     [6, "American Authors", "Best Day of my Life"],
     [7, "Pharrell Williams", "Happy"],
     [8, "Foster The People", "Pumped Up Kicks"],
@@ -114,13 +113,14 @@ const twentyTens = [
     [112, "Mark Ronson & Miley Cyrus", "Nothing Breaks Like a Heart"],
     [113, "Lewis Capaldi", "Someone You Loved"],
     [114, "Billie Eilish", "Bad Guy"],
-    [115, "Calvin Harris & Dua Lipa", "One Kiss"],
+    [115, "The Weekend", "Blinding Lights"],
     [116, "Calvin Harris & Rag N Bone Man", "Giant"],
     [117, "Calvin Harris, Pharrell Williams, Katy Perry, Big Sean", "Feels"],
     [118, "First Aid Kit", "Emmylou"],
     [119, "Lizzo", "Good As Hell"],
     [120, "Mabel", "Don't Call Me Up"],
-    [121, "The Weekend", "Blinding Lights"],
+
+
 
 
 

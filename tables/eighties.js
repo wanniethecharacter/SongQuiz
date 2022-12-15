@@ -48,7 +48,7 @@ const eighties = [
     [47, "Heaven 17", "Temptation"],
     [48, "Yazoo", "Don't Go"],
     [49, "Kim Wilde", "Kids In America"],
-    [50, "Chris Rea", "Wicked Game"],
+    [50, "Chris Isaak", "Wicked Game"],
     [51, "Kate Bush", "Cloudbusting"],
     [52, "Paula Abdul", "Straight Up"],
     [53, "Peter Schilling", "Major Tom"],
@@ -68,7 +68,7 @@ const eighties = [
     [67, "Aerosmith", "Dude (Looks Like A Lady)"],
     [68, "Animotion", "Obsession"],
     [69, "Big Country", "In A Big Country"],
-    [70, "Billy Joel", "Uptown Girl"],
+    [70, "Ozzy Osbourne", "Crazy Train"],
     [71, "Bobby McFerrin", "Don't Worry Be Happy"],
     [72, "Bonnie Tyler", "Holding Out for a Hero"],
     [73, "Chris de Burgh", "The Lady In Red"],
@@ -91,5 +91,5 @@ const eighties = [
     [90, "Midnight Oil", "Beds Are Burning"],
     [91, "Mr. Mister", "Broken Wings"],
     [92, "Nu Shooz", "I Can't Wait"],
-    [93, "Ozzy Osbourne", "Crazy Train"],
+
 ];
