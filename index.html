@@ -144,7 +144,7 @@
 <body>
     <div id="heading" class="centered">
         <div>Song Quiz</div>
-        <div id="version">v.0.1</div>
+        <div id="version">v.0.2</div>
     </div>
 
 
@@ -153,7 +153,7 @@
     <p></p>
     <p></p>
     <p></p>
-    <div id="categoryTitle" class="centered">Pick a Category</div>
+    <!--div id="categoryTitle" class="centered">Pick a Category</div-->
 
     <div id="decades" class="centered">
 
@@ -182,7 +182,7 @@
     <p></p>
 
 
-    <div id="instructions1" class="centered"></div><br>
+    <div id="instructions1" class="centered">Pick a Category</div><br>
     <div id="instructions2" class="centered"></div>
 
 
@@ -251,23 +251,23 @@
 
 <script>
     /* 
-                                            const box = document.getElementById('songTable');
-                                            const btn = document.getElementById('showTable');
-                                            btn.addEventListener('click', function handleClick() {
-                                         if (box.style.visibility === 'hidden') {
-                                      box.style.visibility = 'visible';
-                                          drawTableAddHeaders(currentSongArray, ["Number", "Movie", "Song"], "songTable");
-                                          document.getElementById("songTable").addEventListener("click", tablePlay, false);
-                                        console.log("table drawn");
+                                                        const box = document.getElementById('songTable');
+                                                        const btn = document.getElementById('showTable');
+                                                        btn.addEventListener('click', function handleClick() {
+                                                     if (box.style.visibility === 'hidden') {
+                                                  box.style.visibility = 'visible';
+                                                      drawTableAddHeaders(currentSongArray, ["Number", "Movie", "Song"], "songTable");
+                                                      document.getElementById("songTable").addEventListener("click", tablePlay, false);
+                                                    console.log("table drawn");
 
-                                       btn.textContent = 'Hide Table View';
-                                      } else {
-                                       box.style.visibility = 'hidden';
-                                 btn.textContent = 'Show Table View';
-                                           }
-                                        });
+                                                   btn.textContent = 'Hide Table View';
+                                                  } else {
+                                                   box.style.visibility = 'hidden';
+                                             btn.textContent = 'Show Table View';
+                                                       }
+                                                    });
 
-                                   */
+                                               */
     const answerDiv = document.getElementById('answers');
 
     const answerButton = document.getElementById('showAnswers');
