@@ -66,6 +66,7 @@
     #instructions2 {
         color: darkred;
         font-size: 1.5vw;
+        min-height: 40px;
     }
     
     #decades {
@@ -109,8 +110,7 @@
         box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     }
     
-    #categoryTitle,
-    #instructions {
+    #categoryTitle {
         font-size: 1.5vw;
     }
     
@@ -219,7 +219,7 @@
     </div>
     <p></p>
     <div class="centered">
-        <input type="checkbox" id="showAns" value="showAns">
+        <input type="checkbox" id="showAns" value="showAns" checked="checked">
         <label for="showAns">Hide the answer for each new song.</label><br>
     </div>
 
@@ -251,23 +251,23 @@
 
 <script>
     /* 
-                                                        const box = document.getElementById('songTable');
-                                                        const btn = document.getElementById('showTable');
-                                                        btn.addEventListener('click', function handleClick() {
-                                                     if (box.style.visibility === 'hidden') {
-                                                  box.style.visibility = 'visible';
-                                                      drawTableAddHeaders(currentSongArray, ["Number", "Movie", "Song"], "songTable");
-                                                      document.getElementById("songTable").addEventListener("click", tablePlay, false);
-                                                    console.log("table drawn");
+                                                                                        const box = document.getElementById('songTable');
+                                                                                        const btn = document.getElementById('showTable');
+                                                                                        btn.addEventListener('click', function handleClick() {
+                                                                                     if (box.style.visibility === 'hidden') {
+                                                                                  box.style.visibility = 'visible';
+                                                                                      drawTableAddHeaders(currentSongArray, ["Number", "Movie", "Song"], "songTable");
+                                                                                      document.getElementById("songTable").addEventListener("click", tablePlay, false);
+                                                                                    console.log("table drawn");
 
-                                                   btn.textContent = 'Hide Table View';
-                                                  } else {
-                                                   box.style.visibility = 'hidden';
-                                             btn.textContent = 'Show Table View';
-                                                       }
-                                                    });
+                                                                                   btn.textContent = 'Hide Table View';
+                                                                                  } else {
+                                                                                   box.style.visibility = 'hidden';
+                                                                             btn.textContent = 'Show Table View';
+                                                                                       }
+                                                                                    });
 
-                                               */
+                                                                               */
     const answerDiv = document.getElementById('answers');
 
     const answerButton = document.getElementById('showAnswers');
