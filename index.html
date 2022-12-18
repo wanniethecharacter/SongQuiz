@@ -23,12 +23,12 @@
 <style>
     body {
         background-color: #F0F0F0;
+        max-height: 95%;
     }
     
     #heading {
         font-size: 3vw;
         width: 70%;
-        margin-bottom: 2%;
         margin-top: 2%;
         text-align: center;
         margin-left: auto;
@@ -71,13 +71,13 @@
     #instructions1,
     #instructions2 {
         color: darkred;
-        font-size: 3vw;
+        font-size: 2.5vw;
         min-height: 3%;
     }
     
     #decades {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     
     .decadeButton {
@@ -234,7 +234,7 @@
 
     <div id="answers">
         <div id='answer1' class="centered"></div>
-        <div id='answer2' class="centered" style="margin-top: 1%"></div>
+        <div id='answer2' class="centered"></div>
     </div>
 
 
@@ -257,23 +257,23 @@
 
 <script>
     /* 
-                                                                                                                                                                                                                                                                                                                                        const box = document.getElementById('songTable');
-                                                                                                                                                                                                                                                                                                                                        const btn = document.getElementById('showTable');
-                                                                                                                                                                                                                                                                                                                                        btn.addEventListener('click', function handleClick() {
-                                                                                                                                                                                                                                                                                                                                     if (box.style.visibility === 'hidden') {
-                                                                                                                                                                                                                                                                                                                                  box.style.visibility = 'visible';
-                                                                                                                                                                                                                                                                                                                                      drawTableAddHeaders(currentSongArray, ["Number", "Movie", "Song"], "songTable");
-                                                                                                                                                                                                                                                                                                                                      document.getElementById("songTable").addEventListener("click", tablePlay, false);
-                                                                                                                                                                                                                                                                                                                                    console.log("table drawn");
+                                                                                                                                                                                                                                                                                                                                                                    const box = document.getElementById('songTable');
+                                                                                                                                                                                                                                                                                                                                                                    const btn = document.getElementById('showTable');
+                                                                                                                                                                                                                                                                                                                                                                    btn.addEventListener('click', function handleClick() {
+                                                                                                                                                                                                                                                                                                                                                                 if (box.style.visibility === 'hidden') {
+                                                                                                                                                                                                                                                                                                                                                              box.style.visibility = 'visible';
+                                                                                                                                                                                                                                                                                                                                                                  drawTableAddHeaders(currentSongArray, ["Number", "Movie", "Song"], "songTable");
+                                                                                                                                                                                                                                                                                                                                                                  document.getElementById("songTable").addEventListener("click", tablePlay, false);
+                                                                                                                                                                                                                                                                                                                                                                console.log("table drawn");
 
-                                                                                                                                                                                                                                                                                                                                   btn.textContent = 'Hide Table View';
-                                                                                                                                                                                                                                                                                                                                  } else {
-                                                                                                                                                                                                                                                                                                                                   box.style.visibility = 'hidden';
-                                                                                                                                                                                                                                                                                                                             btn.textContent = 'Show Table View';
-                                                                                                                                                                                                                                                                                                                                       }
-                                                                                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                                                                                                               btn.textContent = 'Hide Table View';
+                                                                                                                                                                                                                                                                                                                                                              } else {
+                                                                                                                                                                                                                                                                                                                                                               box.style.visibility = 'hidden';
+                                                                                                                                                                                                                                                                                                                                                         btn.textContent = 'Show Table View';
+                                                                                                                                                                                                                                                                                                                                                                   }
+                                                                                                                                                                                                                                                                                                                                                                });
 
-                                                                                                                                                                                                                                                                                                                               */
+                                                                                                                                                                                                                                                                                                                                                           */
     const answerDiv = document.getElementById('answers');
 
     const answerButton = document.getElementById('showAnswers');
