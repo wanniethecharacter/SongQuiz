@@ -93,7 +93,7 @@ const covers = [
     [92, "Bee Gees (Funky Butt Brass Band)  ", "Stayin' Alive"],
     [93, "Joni Mitchell (Sergio Mendes & Brasil '66)  ", "Chelsea Morning"],
     [94, "Nelly (Jenny Owen Youngs)", "Hot in Herre"],
-    [95, "Ben E. King (Imagine Dragons)  ", "Blank Space"],
+    [95, "Taylor Swift (Imagine Dragons)", "Blank Space"],
     [96, "The Cure (Mariee Sioux)", "Love Song"],
     [97, "Bee Gees (The Bird and The Bee)  ", "How Deep Is Your Love"],
     [98, "Taylor Swift (Us The Duo)", "Shake It Off"],
