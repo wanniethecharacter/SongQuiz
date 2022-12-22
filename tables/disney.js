@@ -33,13 +33,13 @@ const disney = [
     [32, "Tangled", "I See the Light"],
     [33, "Frozen", "Let It Go"],
     [34, "The Princess and the Frog", "Almost There"],
-    [35, "Pocahontas", "Colours of the Wind"],
+    [35, "Pocahontas", "Colors of the Wind"],
     [36, "Tangled", "I've Got a Dream"],
     [37, "Aladdin (King of Thieves)", "Out of Thin Air"],
     [38, "Mulan", "Reflection"],
     [39, "Cinderella", "So This is Love"],
     [40, "Enchanted", "That's How You Know"],
-    [41, "Enchanted", "True Loves Kiss"],
+    [41, "Enchanted", "True Love's Kiss"],
     [42, "Tangled", "When Will My Life Begin"],
     [43, "Moana", "Tulou Tagaloa"],
     [44, "Moana", "Shiny"],
@@ -47,9 +47,9 @@ const disney = [
     [46, "Mary Poppins", "Chim Chim Cher-ee"],
     [47, "Frozen", "Do you want to Build a Snowman"],
     [48, "Summer Magic", "Ugly Bug Ball"],
-    [49, "Pinnochio", "Hi Diddle Dee Dee (An Actor's Life for me)"],
+    [49, "Pinnochio", "Hi Diddle Dee Dee (An Actor's Life For Me)"],
     [50, "Moana", "How Far I'll Go"],
-    [51, "Three Little Pigs", "Who's Afraid of the big Bad Wolf?"]
+    [51, "Three Little Pigs", "Who's Afraid of the Big Bad Wolf?"]
 
 
 ];

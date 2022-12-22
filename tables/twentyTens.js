@@ -60,7 +60,7 @@ const twentyTens = [
     [59, "Fun", "We Are Young"],
     [60, "Flo Rida", "Whistle"],
     [61, "Alicia Keys", "Girl on Fire"],
-    [62, "Pink", "Try"],
+    [62, "P!nk", "Try"],
     [63, "Disclosure", "White Noise"],
     [64, "Psy", "Gangnam Style"],
     [65, "Conor Maynard", "Animal"],

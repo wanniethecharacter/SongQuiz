@@ -8,102 +8,110 @@ const allCategories = [
     [twentyTens, 'twentyTenSongs', '2010s'],
     [twentyTwenties, 'twentyTwentiesSongs', '2020s'],
     [rock, 'rockSongs', 'Rock'],
-    [protest, 'protestSongs', 'Protest']
+    [protest, 'protestSongs', 'Protest'],
+    [covers, 'coverSongs', "Covers"]
 ];
+const allCatLen = allCategories.length;
+const arraysLength = getAllArraysLength();
+let currentSong = "";
 
+function getAllArraysLength() {
+    let len = 0;
+    for (a = 0; a < allCatLen - 1; a++) {
+        len = len + allCategories[a][0].length;
+    };
+
+    return len;
+}
+
+function getUnusedItem() {
+
+    let catNum = getRandom(allCatLen);
+    let itemNum = getRandom(allCategories[catNum][0].length);
+    let chosenTitleArray = allCategories[catNum][0];
+    let chosenSongArray = allCategories[catNum][1];
+    let chosenCatName = allCategories[catNum][2];
+    let chosenItem = itemNum + 1;
+    let chosenGroupAndSong = chosenSongArray + chosenItem;
+
+    let itemIndex = playedSongArray.indexOf(chosenGroupAndSong);
+    let chosenTitles = chosenTitleArray[chosenItem - 1];
+
+    currentSong = "./music/" + chosenSongArray + "/" + chosenItem + ".mp3";
+
+    if (itemIndex < 0) {
+
+        keepTrackOfPlayedSongs(chosenSongArray, chosenItem);
+
+        let categoryEntry = chosenTitles;
+        document.getElementById("answer1").innerText = chosenTitles[1];
+        document.getElementById("answer2").innerText = '"' + chosenTitles[2] + '"';
+
+        showInstructions(chosenCatName);
+
+        getTitles(chosenSongArray, catNum, itemNum, arraysLength);
+
+        return currentSong;
+    } else {
+        console.log("Rejected: " + currentSong);
+
+
+    }
+
+};
 
 function playAllSongs() {
 
-    let chosenSongAndTitles = "";
-    ////Get a random category
 
+    let newItem;
+    let myPromise = new Promise(function(myResolve, myReject) {
 
-    try {
-        chosenSongAndTitles = getRandom();
-        console.log(chosenSongAndTitles);
-        //keepTrackOfPlayedSongs(chosenSongAndTitles[1], chosenSongAndTitles[3]);
-        //keepTrackOfPlayedSongs(chosenSongAndTitles);
-        getTitles(chosenSongAndTitles[1], chosenSongAndTitles[2], chosenSongAndTitles[3], chosenSongAndTitles[4]);
-    } catch (err) {
-        console.log(err);
-    }
-
-};
-
-function getRandom() {
-
-
-
-    let newSong = "";
-    let rndSongsCategory = "";
-    let currentRandomNumber = 1000;
-
-
-
-
-    let allSongsLength = disney.length + sixties.length + seventies.length + eighties.length + nineties.length + twoThousands.length + twentyTens.length + twentyTwenties.length + rock.length + protest.length;
-    //console.log("allSongsLength: ", allSongsLength);
-
-    let rndCategoryNumber = Math.floor(Math.random() * allCategories.length);
-    rndSongsCategory = allCategories[rndCategoryNumber][1];
-    rndTitlesCategory = allCategories[rndCategoryNumber][0];
-    let maxCategoryCount = rndTitlesCategory.length;
-    currentRandomNumber = Math.floor(Math.random() * maxCategoryCount) + 1;
-
-
-
-    newSong = rndSongsCategory + currentRandomNumber;
-    //console.log(rndSongsCategory, rndCategoryNumber, newSong);
-    //console.log(rndTitlesCategory[currentRandomNumber - 1]);
-
-    let checked = checkPlayed(newSong);
-    //console.log(checked);
-    return [checked, rndSongsCategory, rndCategoryNumber, currentRandomNumber, allSongsLength];
-};
-
-function checkPlayed(songCandidate) {
-
-    let songIndex = playedSongArray.indexOf(songCandidate);
-    // console.log("Index: ", songIndex);
-    //console.log("First: ", songCandidate);
-
-    if (songIndex < 0) {
-        //  console.log("Accept: ", songCandidate);
-        return songCandidate;
-
-    } else {
-        console.log("INDEX EXCEEDED!!!!");
-        console.log("Reject: ", songCandidate);
-        getRandom();
-    }
+        if (playedSongArray.length < arraysLength) {
+            do {
+                newItem = getUnusedItem();
+            } while (newItem === undefined);
+            myResolve(); // when successful
+            //myReject(); // when error   
+        } else {
+            console.log("All done");
+            document.getElementById("answer1").innerText = "All songs played";
+            document.getElementById("answer2").innerText = "";
+            let playButton = document.getElementById("playASong");
+            playButton.textContent = "All Songs Played";
+            return;
+        }
+    });
+    myPromise.then(
+        function(value) {
+            playSong(currentSong);
+        } //,
+        //function(error) {
+        //    console.log(myReject);
+        //}
+    );
 
 };
+
+function getRandom(num) {
+    let randNum = Math.floor(Math.random() * num);
+    return randNum;
+};
+
+
 
 function getTitles(songCat, songCatNum, currRand, allLength) {
-    let newS = songCat + currRand;
-    // console.log(songCat, songCatNum, newS, currRand, allLength);
 
-    let currentSong = "../music/" + songCat + "/" + currRand + ".mp3";
+    let titleGroup = allCategories[songCatNum][0][currRand];
 
-    console.log(currentSong);
-
-    let titleGroup = allCategories[songCatNum][0][currRand - 1];
-
-    //console.log("Title Group: ", titleGroup);
-    //console.log(allCategories[songCatNum][2]);
-
-    //console.log(rndSongs);
     document.getElementById("answer1").innerText = titleGroup[1];
-    document.getElementById("answer2").innerText = titleGroup[2];
-    document.getElementById("categoryTitle").innerText = allCategories[songCatNum][2];
+    document.getElementById("answer2").innerText = '"' + titleGroup[2] + '"';
+
 
     let catMax = allCategories[songCatNum][0].length;
-    //console.log(catMax);
+
 
     let playedCategoryCount = getPlayedCategoryCount(songCat, catMax);
-    //presentTitles();
-    playSong(currentSong);
-    keepTrackOfPlayedSongs(playedCategoryCount, currRand);
+
     playedNumber = playedSongArray.length;
     document.getElementById("songsPlayed").innerText = playedNumber;
     document.getElementById("songsRemaining").innerText = allLength - playedNumber;
@@ -123,13 +131,27 @@ function getPlayedCategoryCount(cat, catMax) {
         }
 
     }
-    console.log(cat, playedCount, catMax);
+    // console.log(cat, playedCount, catMax);
 
     if (playedCount >= catMax) {
         // chooseACategory();
         console.log("All Category Played? ", playedCount, catMax)
     } else {
         return cat;
+    }
+
+};
+
+function showInstructions(categ) {
+    if (categ.includes("Disney")) {
+        document.getElementById("instructions1").innerText = categ;
+        document.getElementById("instructions2").innerText = "Name the song and the movie";
+    } else if (categ.includes("Covers")) {
+        document.getElementById("instructions1").innerText = categ + ": Name the song and ORIGINAL artist";
+        document.getElementById("instructions2").innerText = "(Bonus point for naming the covering artist.)";
+    } else {
+        document.getElementById("instructions1").innerText = categ;
+        document.getElementById("instructions2").innerText = "Name the song and the artist";
     }
 
 };

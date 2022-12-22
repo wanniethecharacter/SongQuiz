@@ -24,7 +24,7 @@ const covers = [
     [23, "Elvis Presley (Tommee Profitt)", "Can't Help Falling in Love"],
     [24, "George Michael (Limp Bizkit)", "Faith"],
     [25, "George Michael (Seether)", "Careless Whisper"],
-    [26, "Gotye (Postmodern JukeBox)", "Somebody That I Used To Know "],
+    [26, "Gotye (Postmodern JukeBox)", "Somebody That I Used To Know"],
     [27, "Green Day (Scala & Kolacny Brothers)", "Wake Me Up When September Ends"],
     [28, "Guns n Roses (Sheryl Crow)", "Sweet Child O' Mine"],
     [29, "Imagine Dragons (Pentatonix)", "Radioactive"],

@@ -46,19 +46,11 @@ function chooseSong(array_name, categoryName, group, buttonID) {
         groupName = group;
         // console.log(groupName);
         resetButtonColors(buttonID);
+        showInstructions(group);
 
 
 
-        if (categoryName.includes("disney")) {
-            document.getElementById("instructions1").innerText = groupName + ": Name the song and the movie";
-            document.getElementById("instructions2").innerText = "";
-        } else if (categoryName.includes("cover")) {
-            document.getElementById("instructions1").innerText = groupName + ": Name the song and ORIGINAL artist";
-            document.getElementById("instructions2").innerText = "(Bonus point for naming the covering artist.)";
-        } else {
-            document.getElementById("instructions1").innerText = groupName + ": Name the song and the artist";
-            document.getElementById("instructions2").innerText = "";
-        }
+
 
         //document.getElementById("categoryTitle").innerText = groupName + ": " + currentSongArray.length + " songs";
         document.getElementById("songsPlayed").innerText = playedSongArray.length;
@@ -127,7 +119,7 @@ function presentTitles() {
          }
     */
     let currentSong = "./music/" + titleCategory + "/" + currentRandomNumber + ".mp3";
-    console.log(currentSong);
+    //console.log(currentSong);
     playSong(currentSong);
 }
 
@@ -159,7 +151,7 @@ function playSong(sourceUrl) {
 
     let checkBox = document.getElementById("showAns");
     let ansBlock = document.getElementById("answers");
-    console.log(sourceUrl);
+    //console.log(sourceUrl);
 
 
 
@@ -187,7 +179,7 @@ function keepTrackOfPlayedSongs(cat, numb) {
     playedNumber = playedNumber + 1; ///shim to get count correct
     document.getElementById("songsPlayed").innerText = playedNumber;
     document.getElementById("songsRemaining").innerText = songNumber - playedNumber;
-    console.log("keep track; ", songNumber, playedNumber);
+    //console.log("keep track; ", songNumber, playedNumber);
 
 
 
@@ -195,6 +187,9 @@ function keepTrackOfPlayedSongs(cat, numb) {
         console.log("All songs played.");
         let playButton = document.getElementById("playASong");
         playButton.textContent = "All Songs Played";
+        document.getElementById("answer1").innerText = "All songs played";
+        document.getElementById("answer2").innerText = "";
+
         return;
     }
 

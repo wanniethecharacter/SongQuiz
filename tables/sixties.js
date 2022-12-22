@@ -6,7 +6,7 @@ const sixties = [
     [5, "Louis Armstrong", "What a Wonderful World"],
     [6, "Yusuf, Cat Stevens", "The First Cut Is The Deepest"],
     [7, "Supremes", "Baby Love"],
-    [8, "Bob Dylan", "Mr Tambourine Man"],
+    [8, "Bob Dylan", "Mr. Tambourine Man"],
     [9, "Nancy Sinatra", "Bang Bang(Shot You Down)"],
     [10, "The Beatles", "Yellow Submarine"],
     [11, "The Beatles", "Twist & Shout"],

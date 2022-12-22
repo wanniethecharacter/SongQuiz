@@ -32,7 +32,7 @@ const eighties = [
     [31, "Madonna", "Like a Virgin"],
     [32, "Tears for Fears", "Shout"],
     [33, "Men Without Hats", "The Safety Dance"],
-    [34, "DireStraits", "Walk of Life"],
+    [34, "Dire Straits", "Walk of Life"],
     [35, "Eurythmics", "There Must Be An Angel"],
     [36, "The Police", "Every Breath You Take"],
     [37, "U2", "Pride (In the Name of Love)"],

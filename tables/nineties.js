@@ -44,7 +44,7 @@ const nineties = [
     [43, "House of Pain", "Jump around"],
     [44, "REM", "Everybody Hurts"],
     [45, "MC Hammer", "You Can't Touch This"],
-    [46, "Sinead O Connor", "Nothing Compares to You"],
+    [46, "Sinead O'Connor", "Nothing Compares to You"],
     [47, "Cher", "Believe"],
     [48, "Will Smith", "Miami"],
     [49, "Jimmy Cliff", "I Can See Clearly Now"],
