@@ -17,7 +17,7 @@ let currentSong = "";
 
 function getAllArraysLength() {
     let len = 0;
-    for (a = 0; a < allCatLen - 1; a++) {
+    for (a = 0; a < allCatLen - 1; a+++) {
         len = len + allCategories[a][0].length;
     };
 
@@ -28,7 +28,7 @@ function getUnusedItem() {
 
     let catNum = getRandom(allCatLen);
     let itemNum = getRandom(allCategories[catNum][0].length);
-    let chosenTitleArray = allCategories[catNum][0];
+    let chosenTitleArray = allCategories[catNum][1];
     let chosenSongArray = allCategories[catNum][1];
     let chosenCatName = allCategories[catNum][2];
     let chosenItem = itemNum + 1;
@@ -147,8 +147,8 @@ function showInstructions(categ) {
         document.getElementById("instructions1").innerText = categ;
         document.getElementById("instructions2").innerText = "Name the song and the movie";
     } else if (categ.includes("Covers")) {
-        document.getElementById("instructions1").innerText = categ + ": Name the song and ORIGINAL artist";
-        document.getElementById("instructions2").innerText = "(Bonus point for naming the covering artist.)";
+        document.getElementById("instructions1").innerText = categ + ": Name the song and original artist";
+        document.getElementById("instructions2").innerText = "(Bonus point for naming the cover artist.)";
     } else {
         document.getElementById("instructions1").innerText = categ;
         document.getElementById("instructions2").innerText = "Name the song and the artist";
