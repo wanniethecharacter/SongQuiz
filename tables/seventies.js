@@ -28,7 +28,7 @@ const seventies = [
     [27, "Gary Numan", "Cars"],
     [28, "Boston", "More Than a Feeling"],
     [29, "Al Green", "Let's Stay Together"],
-    [30, "Led Zeppelin", "Stairway to Heaven"],
+    [30, "America", "Ventura Highway"],
     [31, "David Bowie", "Starman"],
     [32, "10 CC", "The Things We do For Love"],
     [33, "Marvin Gaye", "Let's Get it On"],
@@ -46,7 +46,7 @@ const seventies = [
     [45, "Chaka Khan", "I'm Every Woman"],
     [46, "Sylvester", "You Make Me Feel"],
     [47, "Blondie", "One Way or Another"],
-    [48, "Joni Mitchell", "Big Yellow Taxi"],
+    [48, "Bee Gees", "How Deep Is Your Love"],
     [49, "The Knack", "My Sharona"],
     [50, "Carl Douglas", "Kung Fu Fighting"],
     [51, "Bob Seger", "Still The Same"],
@@ -85,7 +85,7 @@ const seventies = [
     [84, "Isaac Hayes", "Theme From Shaft"],
     [85, "James Taylor", "Fire and Rain"],
     [86, "Janis Joplin", "Me and Bobby McGee"],
-    [87, "Jimmy Cliff", "The Harder They Come"],
+    [87, "Badfinger", "Come And Get It"],
     [88, "John Travolta, Olivia Newton-John", "Summer Nights"],
     [89, "John Travolta, Olivia Newton-John", "You're The One That I Want"],
     [90, "Junior Murvin", "Police & Thieves"],
@@ -118,7 +118,7 @@ const seventies = [
     [117, "T. Rex", "20th Century Boy"],
     [118, "T. Rex", "Bang a Gong (Get It On)"],
     [119, "Talking Heads", "Psycho Killer"],
-    [120, "The Boomtown Rats", "I Don't Like Mondays"],
+    [120, "Badfinger", "No Matter What"],
     [121, "The Doobie Brothers", "Listen to the Music"],
     [122, "The Doobie Brothers", "Long Train Runnin'"],
     [123, "The Doors", "L.A. Woman"],
@@ -145,10 +145,9 @@ const seventies = [
     [144, "Wings", "Band On The Run"],
     [145, "Wings", "Live And Let Die"],
     [146, "America", "A Horse with No Name"],
-    [147, "America", "Ventura Highway"],
-    [148, "Badfinger", "Come And Get It"],
-    [149, "Badfinger", "No Matter What"],
-    [150, "Bee Gees", "How Deep Is Your Love"],
+
+
+
 
 
 

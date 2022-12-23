@@ -98,7 +98,7 @@ const twoThousands = [
     [97, "Train", "Hey, Soul Sister"],
     [98, "Usher, Pitbull", "DJ Got Us Fallin' In Love"],
     [99, "will.i.am, Britney Spears", "Scream & Shout"],
-    [100, "Wiz Khalifa", "Black and Yellow"]
+
 
 
 ];

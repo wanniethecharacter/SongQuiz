@@ -24,13 +24,13 @@ const sixties = [
     [23, "Sonny & Cher", "I Got You Babe"],
     [24, "The Four Tops", "Reach Out, I'll Be There"],
     [25, "The Shadows", "Apache"],
-    [26, "The Impressions", "People Get Ready"],
+    [26, "Wilson Pickett", "In the Midnight Hour"],
     [27, "The Archies", "Sugar Sugar"],
     [28, "The Troggs", "Wild Thing"],
     [29, "Chubby Checker", "Let's Twist Again"],
     [30, "Petula Clark", "Downtown"],
     [31, "The Kinks", "All Day and All of the Night"],
-    [32, "Aretha Franklin", "Respect"],
+    [32, "Yusuf  Cat Stevens", "Matthew & Son"],
     [33, "The Animals", "The House of the Rising Sun"],
     [34, "Booker T and the MGs", "Green Onions"],
     [35, "Wilson Pickett", "Land of a Thousand Dances"],
@@ -186,8 +186,7 @@ const sixties = [
     [185, "Tom Jones", "Green Green Grass Of Home"],
     [186, "Tom Jones", "It's Not Unusual"],
     [187, "Tommy James & The Shondells", "Mony Mony"],
-    [188, "Wilson Pickett", "In the Midnight Hour"],
-    [189, "Yusuf  Cat Stevens", "Matthew & Son"]
+
 
 
 

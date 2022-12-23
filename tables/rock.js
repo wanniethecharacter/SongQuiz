@@ -33,7 +33,7 @@ const rock = [
     [32, "Alice Cooper", "Eighteen"],
     [33, "Queen", "Don't Stop Me Now"],
     [34, "Foo Fighters", "Breakout"],
-    [35, "Nirvana", "Smells Like Teen Spirit"],
+    [35, "Journey", "Don't Stop Believin'"],
     [36, "Kiss", "God Gave Rock & Roll to You"],
     [37, "Europe", "The Final Countdown"],
     [38, "Nirvana", "Come As You Are"],
@@ -50,7 +50,7 @@ const rock = [
     [49, "Stone Roses", "Fools Gold"],
     [50, "Emerson, Lake and Palmer", "Lucky Man"],
     [51, "David Bowie", "Panic in Detroit"],
-    [52, "Rage Against the Machine", "Killing in the Name"],
+    [52, "Edgar Winter Group", "Frankenstein"],
     [53, "The Offspring", "Pretty Fly (for a White Guy)"],
     [54, "Jimi Hendrix", "Purple Haze"],
     [55, "Lenny Kravitz", "Always on the Run"],
@@ -78,8 +78,8 @@ const rock = [
     [77, "Smashing Pumpkins", "Today"],
     [78, "Foo Fighters", "My Hero"],
     [79, "Beatles", "Helter Skelter"],
-    [80, "Guns 'n' Roses", "November Rain"],
-    [81, "Guns 'n' Roses", "You Could Be Mine"],
+    [80, "Guns N Roses", "November Rain"],
+    [81, "Guns N Roses", "You Could Be Mine"],
     [82, "The Scorpions", "Wind of Change"],
     [83, "Ted Nugent", "Cat Scratch Fever"],
     [84, "Bob Dylan", "Hurricane"],
@@ -89,7 +89,7 @@ const rock = [
     [88, "ZZ Top", "Sharp Dressed Man"],
     [89, "Blink 182", "All the Small Things"],
     [90, "Pearl Jam", "Yellow Ledbetter"],
-    [91, "Green Day", "American Idiot"],
+    [91, "Aerosmith", "Sweet Emotion"],
     [92, "Nirvana", "In Bloom"],
     [93, "The White Stripes", "Seven Nation Army"],
     [94, "Alice Cooper", "Elected"],
@@ -98,10 +98,8 @@ const rock = [
     [97, "George Thorogood", "Bad to the Bone"],
     [98, "Led Zeppelin", "Black Dog"],
     [99, "Led Zeppelin", "Kashmir"],
-    [100, "Chicago", "25 or 6 to 4"],
-    [101, "Journey", "Don't Stop Believin'"],
-    [102, "Edgar Winter Group", "Frankenstein"],
-    [103, "Aerosmith", "Sweet Emotion"],
+    [100, "Chicago", "25 or 6 to 4"]
+
 
 
 

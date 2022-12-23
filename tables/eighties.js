@@ -14,7 +14,7 @@ const eighties = [
     [12, "The Jam", "Town Called Malice"],
     [13, "Salt N Pepper", "Push It"],
     [14, "Cyndi Lauper", "Girls Just Wanna Have Fun"],
-    [15, "Frankie Goes to Hollywood", "Relax"],
+    [15, "XTC", "Senses Working Overtime"],
     [16, "UB40", "Red Red Wine"],
     [17, "Michael Jackson", "Bad"],
     [18, "Fleetwood Mac", "Everywhere"],
@@ -133,7 +133,7 @@ const eighties = [
     [131, "Trio", "Da Da Da"],
     [132, "Ultravox", "Vienna"],
     [133, "Visage", "Fade To Grey"],
-    [134, "XTC", "Senses Working Overtime"]
+
 
 
 ];
